@@ -4,15 +4,15 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="word-searcher",
+    name="wordsearch",
     version="1.0.0",
     author="hdwyx",
     description="Package for searching words",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/hdwyx/word-searcher",
+    url="https://github.com/hdwyx/wordsearch",
     project_urls={
-        "Bug Tracker": "https://github.com/hdwyx/word-searcher/issues",
+        "Bug Tracker": "https://github.com/hdwyx/wordsearch/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
